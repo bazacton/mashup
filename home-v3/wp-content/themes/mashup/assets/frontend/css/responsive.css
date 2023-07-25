@@ -1,0 +1,211 @@
+@media screen and (max-width: 1170px) {
+/* client-logo responsive start */
+.logo-slider .client-logo { margin: 0 40px; }
+.logo-slider .client-logo .slick-prev { left: 15px; }
+.logo-slider .client-logo .slick-next { right: 15px; }
+/* client-logo responsive end */
+.music-event-list { overflow-x: scroll; margin-bottom: 30px; }
+.music-event-list ul { width: 1140px; }
+.event-list-holder { width: auto; }
+.news-letter .filed-holder input[type="email"], .news-letter .filed-holder input[type="text"] { width: 64%; }
+.news-letter .filed-holder { text-align: left; }
+.news-letter .text-holder { margin-bottom: 40px; }
+.blog.blog-list .blog-post .text-holder .post-option .post-catagories { margin: 0 20px 0 0; }
+.blog.blog-list .blog-post .text-holder .post-option .post-date { margin: 0 20px 0 0; }
+.music-event-list.event-detail-list ul li .event-price { width: 175px; }
+.album-player .jp-audio .jp-progress { width: 73%; }
+.main-player .jp-progress { width: 33%; }
+.main-player .jp-audio .jp-volume-controls { width: 16%; }
+.main-player .jp-audio .jp-volume-bar { width: 80%; }
+#footer .widget-nav ul li { margin-right: 14px; }
+#header.modren.left .fullwidth {padding-left:50px;padding-right:50px;}
+.slider li .section-title{margin:0 0 20px;}
+.slider .slick-arrow{top:50px;}
+}
+@media screen and (max-width: 980px) {
+.blog.blog-list .blog-post .text-holder p { margin-bottom: 15px; }
+.blog.blog-list .blog-post .text-holder .post-option { margin-bottom: 15px; }
+.album-player .jp-audio .jp-progress { width: 77%; }
+.slicknav_menu { display: block; background: none; border: 1px solid rgba(225, 225, 225, 0.5); }
+.slicknav_btn { float: left; width: 100%; }
+.slicknav_nav { position: absolute; top: 100%; width: 100%; left: 0; }
+#header .container { position: relative; }
+#header.classic li.logo { display: none; }
+.main-navigation { display: none; }
+#header.classic .user-option { float: right; z-index: 2; margin-top: -38px; }
+#header.classic { position: relative; }
+#header.classic .main-header, #header.modren.center { padding: 10px 0; }
+#header.modren.center .logo { display: none; }
+#header.classic .main-header .slicknav_nav, #header.modren.center .slicknav_nav { margin-top: 10px; }
+#header.modren.left .main-nav { margin-left: 0px; float: none; width: 50%; display: inline-block; margin-top: 18px; margin-bottom: 15px; padding-top: 10px; margin-right: 90px; }
+#header.modren.left.transparent-header .slicknav_menu .slicknav_menutxt { color: #FFFFFF !important; }
+#header.modren.left.transparent-header .slicknav_menu .slicknav_icon-bar { border-color: #FFFFFF !important; }
+#header.modren.left.transparent-header .user-option { position: absolute; top: 40px; right: 60px; }
+#header.modren.left .main-logo { margin-right: 10px; }
+#footer .widget-text ul, #footer .widget-nav ul { text-align: center; }
+#header.modren.left.transparent-header .user-option .user-cart ul li > a { padding: 10px 0; }
+#header.modren.left .user-option { position: absolute; right: 60px; top: 10px; }
+#header.modren.left .container .main-nav { margin-left: 100px; margin-right: 0; }
+.slider .col-sm-12, .slider .col-xs-12 { display: block; }
+.jp-audio .jp-volume-controls, .main-player .jp-audio .jp-volume-controls { display: none; }
+.main-player { text-align: center; }
+.main-player .jp-playlist { text-align: left; }
+.slider .slick-arrow.slick-next, .music-events .slick-next.slick-arrow{right:15px;left:auto;}
+.section-title, .element-title {margin: 0 0 35px;}
+}
+
+@media screen and (max-width: 768px) {
+.blog.blog-list .blog-post .img-holder { margin: 0 0 30px; width: 100%; }
+.blog.blog-list .blog-post .text-holder { overflow: visible; }
+.music-events .text-holder h2 { line-height: 60px !important; }
+.main-player .jp-audio .jp-volume-controls { width: 130px; }
+.main-player .jp-audio .jp-volume-bar { width: 110px; }
+.main-player .jp-controls { width: 110px; }
+.main-player .img-holder { margin-right: 7px; }
+.main-player .jp-time-holder { width: 90px; }
+.main-player .playlist-toggel { margin-right: 15px; }
+.main-player .share-player { margin-right: 5px; }
+.main-player .jp-progress { width: 220px; }
+.blog.blog-list .blog-post .text-holder { width: 100% }
+.slicknav_btn { float: left; width: 100%; }
+#header.modren.left .main-logo { display: inline-block; float: none; }
+#header .user-option { top: 0px; }
+#header.modren.left.transparent-header .user-option { position: absolute; top: 40px; right: 60px; }
+#header.modren.left.transparent-header .user-option .user-cart ul li > a { padding: 10px 0; }
+#header.modren.left .user-option { position: absolute; right: 60px; top: 10px; }
+}
+
+@media screen and (max-width: 767px) {
+/* client-logo responsive start */
+.logo-slider .client-logo .slick-prev { top: 20px; }
+.logo-slider .client-logo .slick-prev:before { font-size: 35px; }
+.logo-slider .client-logo .slick-next { top: 20px; }
+.logo-slider .client-logo .slick-next:after { font-size: 35px; }
+.blog.blog-list .blog-post .text-holder { float: right; }
+.blog.blog-list .blog-post .text-holder h2 { font-size: 22px !important; }
+.album-player .jp-audio .jp-progress { width: 74%; }
+.music-events .img-holder { margin: 0 0 67px 0; }
+.music-events .text-holder { overflow: visible; float: left; }
+.viewbox-button-prev:before { left: -10px; }
+.viewbox-button-close:before { top: 5px; font-size: 35px; }
+.viewbox-button-next:before { right: -10px; left: auto; }
+.jp-audio .jp-progress { width: 26%; }
+.main-player .jp-progress { width: 30%; }
+.main-player .jp-audio .jp-volume-controls { width: 12%; }
+.main-player .jp-audio .jp-volume-bar { width: 75%; }
+.user-option .user-play { padding: 8px 0; }
+#header.modren .user-option .user-cart ul li > a { padding: 10px 0; }
+#header .user-option { top: 10px; }
+#header .main-header { padding-top: 10px; }
+#header.modren.left.transparent-header .user-option { position: absolute; top: 50px; right: 60px; }
+#header.modren.left.transparent-header .user-option .user-cart ul li > a { padding: 10px 0; }
+#header.modren.left .user-option { top: 34px; }
+#header.modren.left .container .user-option { top: 25px; right: 15px; }
+}
+
+/* client-logo responsive end */
+@media screen and (max-width: 640px) {
+.blog.blog-masonry .blog-post.featured { margin-left: 0; }
+.blog.blog-masonry .featured.blog-post .img-holder { margin-left: 0; width: 100%; display: block; padding-left: 0; padding-right: 0; }
+.blog.blog-masonry .featured.blog-post .text-holder { width: 100%; margin-right: 0; display: block; padding-left: 0; margin-left: 0; min-height: 522px; }
+.blog.blog-masonry .featured.blog-post .text-holder .blog-holder { left: 0; }
+.album-player .jp-audio .jp-progress { width: 69%; }
+.main-player .jp-controls { width: 85px; }
+.main-player .jp-controls button.jp-play:after { font-size: 18px; }
+.main-player button.jp-play { height: 25px; width: 25px; }
+.main-player .jp-controls button { height: 25px; width: 25px; }
+.main-player .jp-controls button.jp-next:after { font-size: 12px; }
+.main-player .jp-controls button:after { font-size: 12px; }
+.main-player .img-holder { margin-right: 3px; height: 30px; width: 30px; }
+.main-player .playlist-toggel { margin-right: 8px; }
+.main-player .share-player { margin-right: 5px; }
+.main-player .jp-audio .jp-volume-controls { width: 10%; }
+.main-player .jp-audio .jp-volume-bar { width: 60%; }
+.main-player .jp-playlist { bottom: auto; top: 76px; }
+#header.modren.left .main-nav { margin-left: 0px; float: left; width: 100%; margin-bottom: 10px; display: inline-block; }
+#header.modren.left .main-logo { display: block; }
+.music-album li { margin-bottom: 30px; }
+#footer .widget-nav ul li:last-child { margin-right: 0px; }
+#header .user-option { position: absolute; top: 0; right: 15px; }
+#header.modren .user-option .user-cart ul li > a { padding: 10px 0; }
+.user-option .user-play { padding: 0; }
+#header.modren.left.transparent-header .main-nav { margin-right: 0; }
+#header.modren.left.transparent-header .user-option { top: 58px; }
+#header.modren.left .main-nav { margin-right: 0; }
+#header.modren.left .container .main-nav { margin-left: 0; margin-right: 0; }
+#header.modren.left .container .user-option { top: 3px; }
+}
+
+@media screen and (max-width: 480px) {
+.no-results.not-found label { width: 63%; }
+.no-results.not-found input[type="submit"] { width: 36%; }
+.widget-contact .filed-holder label { text-align: center; }
+.news-letter .filed-holder input[type="email"], .news-letter .filed-holder input[type="text"] { width: 100%; margin-bottom: 20px; }
+.news-letter .filed-holder label { float: right; }
+.slider .slick-arrow { font-size: 30px; }
+.music-events .text-holder h2 { font-size: 30px !important; line-height: 40px!important; }
+.music-events .img-holder { margin: 0 0 50px; }
+.music-events .img-holder figure { width: 328px; }
+.music-events .img-holder:after { width: 323px; height: 460px; }
+.music-events .text-holder { overflow: visible; float: left; }
+.blog.blog-list .blog-post .text-holder { overflow: visible; }
+.comments ul li .children li { padding: 40px 30px 33px 30px; }
+table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td { padding: 0 7px; }
+.jp-type-playlist { position: relative; }
+.album-player .jp-audio .jp-progress { width: 63%; }
+.main-player .jp-progress { width: 89%; }
+.main-player .jp-controls { width: 100%; margin-bottom: 6px; }
+.main-player .jp-audio .jp-title { margin-bottom: 6px; text-align: center; }
+.main-player .jp-time-holder { width: 80px; position: relative; left: 0; top: 7px; text-align: left; }
+.main-player .jp-audio .jp-volume-controls { width: 50%; position: relative; left: 6px; bottom: 0; top: 6px; }
+.main-player .jp-audio .jp-volume-bar { width: 90%; }
+.main-player .share-player { margin-right: 5px; position: relative; bottom: 0; width: 66px; left: 6px; top: 6px; right: auto; text-align: left; }
+.main-player .playlist-toggel { margin-right: 8px; position: relative; top: 8px; left: 10px; }
+.main-player .img-holder { margin-right: 3px; height: 50px; width: 50px; position: absolute; top: 0; left: auto; }
+.main-player .jp-type-playlist { text-align: center; }
+.main-player .jp-playlist { top: 106px; width: 100%; text-align: left; bottom: auto; }
+.main-post .slider-post { min-height: 0; }
+.user-option .user-play { padding: 8px 0; }
+.music-events .slick-arrow:after { width: 15px; }
+.music-events .slick-next.slick-arrow, .music-events .slick-arrow { padding-left: 28px; }
+.main-player .jp-progress .jp-seek-bar, .jp-audio .jp-volume-controls, .main-player .jp-audio .jp-volume-controls { display: none; }
+#header.modren.left .user-option { top: 34px; right: 60px; }
+}
+
+@media screen and (max-width: 475px) {
+.album-player .jp-audio .jp-progress { width: 57%; }
+.music-events .slick-arrow, .music-events .slick-next.slick-arrow  { top: 0; }
+.main-player .jp-audio .jp-volume-controls { width: 40%; }
+.main-player .jp-audio .jp-volume-bar { width: 70%; }
+}
+
+@media screen and (max-width: 380px) {
+.album-player .jp-audio .jp-progress { width: 50%; }
+.music-events .img-holder figure { width: 314px; }
+.music-events .img-holder:after { width:304px; height:440px; }
+.music-events .slick-arrow { font-size: 10px; }
+.user-option .user-cart ul li > ul { width: 345px; }
+.logo-slider .client-logo figure a .grayscale { width: 100%; }
+#footer .widget-nav ul li a { font-size: 12px; margin-right: 8px; }
+#footer .widget-nav ul li { margin-right: 8px; }
+}
+
+@media screen and (max-width: 360px) {
+.music-events .img-holder figure { width: 300px; }
+.music-events .img-holder:after { width: 290px; height: 420px; }
+.user-option .user-cart ul li > ul { width: 290px; }
+#header .main-logo, #header.modren.right .main-logo { margin-left: 18px; max-width: 100px; }
+#header .main-logo img { width: 100%; }
+#header.modren.left .main-logo { margin-right: 18px; margin-left: 0; }
+#footer .widget-text ul li { padding-right: 15px; }
+#header.modren.left.transparent-header .user-option { top: 46px; }
+}
+
+@media screen and (max-width: 320px) {
+.blog.blog-list .blog-post .text-holder .post-option .post-date { margin: 0 8px 0 0; }
+.blog.blog-list .blog-post .text-holder .post-option .post-catagories { margin: 0 8px 0 0; }
+.album-player .jp-audio .jp-progress { width: 43%; }
+.music-events .img-holder figure { width: 270px; }
+.music-events .img-holder:after { width: 251px; height: 368px; }
+.main-player .jp-audio .jp-volume-controls { width: 30%; }
+}

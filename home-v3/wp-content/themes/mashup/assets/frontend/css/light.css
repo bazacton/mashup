@@ -1,0 +1,778 @@
+@charset "utf-8";
+/* CSS Document */
+/* colors */
+body, .cs-counter .cs-text strong, #header.modren .main-navigation>ul>li>a, .album-detail .text-holder p, .album-player .title, .album-player .title b, .album-player .duration, .jp-audio .jp-current-time, .jp-audio .jp-duration, .jp-audio .jp-title, .main-post .swiper-button-prev:before, .main-post .swiper-button-next:before, .main-post .slider-post button.slick-prev:before, .main-post .slider-post button.slick-next:before, .main-post .swiper-button-prev:before, .main-post .swiper-button-next:before, ul.blog-medium-slides button.slick-prev:before, ul.blog-medium-slides button.slick-next:before, .blog-small-slider-holder .swiper-button-prev:before, .blog-small-slider-holder .swiper-button-next:before, ul.blog-small-slides button.slick-prev:before, ul.blog-small-slides button.slick-next:before, .blog-masonary-slider-holder .swiper-button-prev:before, .blog-masonary-slider-holder .swiper-button-next:before, ul.blog-masonary-slides button.slick-prev:before, ul.blog-masonary-slides button.slick-next:before, .event-detail p {
+	color: #555
+}
+
+.page-links span, .page-links a span, .page-links span.page-links-title, .password_protected input[type="submit"], .password_protected .protected-icon a, .px-gallery.default-gallery figure figcaption a, .table thead tr th, .round-strip-progressbar span, .round-strip-progressbar .skillbar small, .circle-info, .circle-info-half, .circle-text, .cs-calltoaction .cs-text, .user-post-vehicles .cs-field input[type="submit"], .banner-news-letter .input-holder .btn-submit, .slicknav_menu .slicknav_menutxt, .slicknav_nav, .slicknav_nav a, .slicknav_brand, .main-navigation>ul>li>a, .album-detail .img-holder figure figcaption .btn-album:after, .album-detail .text-holder .btn-buy,.blog.blog-masonry .blog-post .text-holder .btn-read-mone , .promo-box .text-holder a, .main-post .slider-post button.slick-prev:hover:before, .main-post .slider-post button.slick-next:hover:before, ul.blog-medium-slides button.slick-prev:hover:before, ul.blog-medium-slides button.slick-next:hover:before, ul.blog-small-slides button.slick-prev:hover:before, ul.blog-small-slides button.slick-next:hover:before, .contact-form .cs-spinner, .contact-form .form-holder form .input-holder input[type="submit"], ul.blog-masonary-slides button.slick-prev:hover:before, ul.blog-masonary-slides button.slick-next:hover:before, ul.features li, .cs-price span, .construction.fancy .logo p, .construction.fancy .time-box .label, .construction.fancy span, .construction.fancy .social-media li a, .construction.fancy .input-holder input[type="submit"], .no-results.not-found input[type="submit"], .construction.fancy .news-letter-heading h6, .music-event-list ul li .event-ticket a , .event-detail .image-frame figure figcaption span, .event-detail .image-frame figure figcaption strong, .video-grid .img-holder figcaption .caption-text h3 a, .video-grid .img-holder figcaption .caption-text span, .video-grid .img-holder figcaption a.btn, .page-not-found .text-holder a, .no-search-result .text-holder button.search-submit, .slider .cs-column-text .btn, .blog.blog-detail .share-post ul li .twitter, .blog.blog-detail .share-post ul li .facebook, .blog.blog-detail .share-post ul li .facebook i, .comment-form form .btn-holder input[type="submit"], .music-album figcaption .play-btn, .load-more, .load-more:hover, .load-more:focus, .music-gallery li figcaption i, .viewbox-button-close:before, .viewbox-button-next:before, .viewbox-button-prev:before, .news-letter .text-holder i, .btn-efc:hover, .btn-efc:focus, .btn-efc:active, .news-letter .text-holder p, .news-letter .filed-holder .btn-submit, .news-letter .cs-spinner i, .widget-contact .filed-holder .btn-submit, .widget-contact .filed-holder .btn-submit, .widget-contact .status.cs-spinner, .team-view .img-holder figcaption a, .user-option .user-cart ul li > ul li .text-holder .post-title h6 a, .main-player .jp-audio .jp-duration, .main-player .jp-audio .jp-current-time, .main-player .jp-audio .jp-volume-controls button.jp-mute:after, .main-player .jp-playlist ul li, .main-player .jp-playlist-item, .main-player .jp-playlist ul li a, .main-player .jp-audio .jp-progress .jp-details, .main-player .jp-audio .jp-title, .no-search-result .text-holder button.search-submit  {
+	color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #1e1e2a;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a, .panel-title, .plain span, .cs-counter figure i {
+	color: #333;
+}
+a:hover, a:focus, .main-navigation>ul>li ul>li>a, .album-detail .text-holder .date,.jp-audio .jp-volume-controls button.jp-mute:after, .contact-info .text-holder p, .faq-page .accordion-collapse .panel-heading .panel-title a, .faq-page .accordion-collapse .panel-heading .panel-title a.collapsed, .footer-widgets .widget-text, .footer-widgets .widget-text ul li i , .footer-widgets .widget-text ul li p, .footer-widgets .widget-text ul li p a, .copyright-text p {
+	color: #000
+}
+blockquote, .construction.fancy .time-box h4, .slider .slick-arrow:hover,  .page-not-found .text-holder span {
+	color: #ff0c00;
+}
+select, textarea, input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=range], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], p ins, .slicknav_menu ul ul li a strong {
+	color: #999
+}
+.panel-title a {
+	color: #ff5422;
+}
+.panel-group.box .panel-title a:before, .panel-group.box .panel-title a.collapsed:before {
+	color: #858484;
+}
+.plain small {
+	color: #585858;
+}
+.cs-testimonial-slider .author-name h6 span {
+	color: #828490;
+}
+.site-maps-links li:before {
+	color: #a0a0a0;
+}
+.cs-dropcap p:first-letter, .pricetable-holder h4, .music-album figcaption .album-label, .music-album .text-holder .album-tracks, .cs-price span em  {
+	color: #ff0000;
+}
+#header.modren .main-navigation>ul>li:hover > a, #header.modren .main-navigation>ul>li ul>li>a {
+	color: #f9f9f9;
+}
+ 
+.album-player .btn.play:after, .album-player .btn.pause:after, .jp-audio .jp-controls-holder button.jp-play:after, .jp-audio .jp-controls-holder button.jp-stop:after {
+	color: #d8d8d8;
+}
+.album-player .btn.pause:after, .music-event-list ul li h4, .music-event-list ul li .element-title h5, .music-event-list ul li .event-title h3, .music-event-list ul li .event-info p, .music-event-list ul li .event-location p, .music-event-list ul li .event-price span, .music-events .text-holder h2, .music-events .text-holder ul li, .music-events .text-holder ul li strong, .music-events .text-holder ul li span, .music-events .text-holder .element-title h5, .music-events .text-holder .time-box span.label, .event-detail h3, .music-album .text-holder .post-title h6 a, .footer-widgets .widget-recent-post .post-text .post-title h4 a, .footer-widgets .widget-recent-post .post-option span, .album-detail .text-holder .album-title h4, .jp-audio.jp-state-playing .jp-controls-holder button.jp-play:after, .contact-info .text-holder h5, .music-event-list ul li .event-info a, .search-result .blog-post .text-holder h3, .blog.blog-list .blog-post .text-holder h2 {
+	color: #0f0851;
+}
+.cs-subheader-text .breadcrumbs ul li:before{ 
+color:#ccc;
+}
+.main-post span{color: #888888;}
+
+.alert > p, .alert > p span, .alert button.close, .cs-user-option .cs-login .alert button.close{
+	color: #595858 ;
+}
+.alert.alert-danger p i{
+	color: #e53933;
+}
+.alert.alert-success p i{
+	color: #39c14a;
+}
+.alert.alert-warning p i{
+	color: #fec842;
+}
+.alert.alert-info p i{
+	color: #0369cc;
+}
+.construction.fancy .input-holder input[type="text"]{
+	color: #808080;
+}
+.construction.fancy .input-holder i{
+	color: #c9c9c9;
+}
+.twitter-post p, .twitter-post .post-options span,  .logo-slider .client-logo .slick-next:after, .logo-slider .client-logo .slick-prev:before{
+	color: #122e53;
+}
+.twitter-post p a{
+	color: #0096ff;
+}
+ .music-event-list ul li.ticket-closed h4, .music-event-list ul li.ticket-closed .event-title h3, .music-event-list ul li.ticket-closed .event-info p, .music-event-list ul li.ticket-closed .event-info a, .music-event-list ul li.ticket-closed .event-location p, .music-event-list ul li.ticket-closed .event-price span{
+	 color: #c6c6c6 ;
+ }
+ .section-title span, .slider .slick-arrow {
+	 color: #d7d7d7;
+ }
+.event-next a, .music-events .slick-arrow{
+	color: #fc0606;
+}
+
+ .search-result .blog-post .text-holder .post-option .post-catagories li a, .search-result .blog-post .text-holder .post-option .post-date, .search-result .blog-post .text-holder .post-option .post-comment a, .search-result .blog-post .text-holder .post-option .post-comment i, .blog.blog-list .blog-post .text-holder .post-option .post-catagories li a, .blog.blog-list .blog-post .text-holder .post-option .post-date, .blog.blog-list .blog-post .text-holder .post-option .post-comment a, .blog.blog-list .blog-post .text-holder .post-option .post-comment i{
+	 	color: #a5a5a5;
+ }
+ .blog.blog-detail .share-post ul li .pin-it {
+	 color: #ce5361;
+ }
+ .comments ul li .text-holder .reply-btn a i{
+	 color: #c2c2c2;
+ }
+ .comment-form .error-massege span {
+	 color: #b4b4b4;
+ }
+ .news-letter .filed-holder input[type="email"], .news-letter .filed-holder input[type="text"], .news-letter ::-webkit-input-placeholder, .news-letter :-moz-placeholder, .news-letter ::-moz-placeholder, .news-letter :-ms-input-placeholder{
+	 color: #9c9c9c;
+ }
+ .widget-contact .filed-holder input[type="email"], .widget-contact .filed-holder input[type="text"], .widget-contact ::-webkit-input-placeholder, .news-letter :-moz-placeholder, .news-letter ::-moz-placeholder, .news-letter :-ms-input-placeholder, .widget-contact textarea {
+	 color: #8d8d8d;
+ }
+ .user-option .user-cart ul li > ul li .text-holder .cart-price{
+	 color: #ec1c23;
+	 
+	 }
+	 .user-option .user-cart ul li > ul li .text-holder .cart-close{
+		 color: #796872;
+	 }
+	 .screen-reader-text:focus{
+		 color: #21759b;
+	 }
+	 .main-player .jp-controls button{
+		 color: #343738;
+	 }
+	 .main-player .jp-playlist-item.jp-playlist-current:after{
+		 color: #4c4c4e;
+	 }
+	 .main-player .playlist-toggel a, .main-player .share-player a {
+		 color: #c1bfbd;
+	 }
+	 .contact-info .text-holder a{
+		color: rgb(85, 85, 85); 
+	 }
+	 .rich-editer-text ul li:after{
+	color: rgb(43, 141, 196);
+}
+	
+	/* colors */
+/* Background colors */
+
+body,
+.wrapper.wrapper-boxed,
+.slicknav_nav,
+#header.modren .main-navigation>ul>li ul>li:hover >a:after,
+#header.modren .main-navigation>ul>li ul>li>a:after,
+.main-post .swiper-slide,
+.blog-medium-slider-holder .swiper-slide,
+.blog-small-slider-holder .swiper-slide,
+.blog-masonary-slider-holder .swiper-slide,
+.twitter-post {
+    background-color: #fff;
+}
+
+.post-password-form {
+    background: #2b8dc4;
+}
+
+table {
+    background-color: transparent;
+}
+
+.page-links span {
+    background: #222;
+}
+
+.password_protected input[type="submit"],
+.password_protected .protected-icon a,
+.jp-audio .jp-volume-bar:before,
+ul.terms-nav li::after {
+    background-color: #000;
+}
+
+a[data-original-title="Facebook"] {
+    background: #3b558b;
+}
+
+a[data-original-title="LinkedIn"] {
+    background: #007bb6;
+}
+
+a[data-original-title="Twitter"] {
+    background: #00aced;
+}
+
+a[data-original-title="Google+"] {
+    background: #b63a2b;
+}
+
+a[data-original-title="YouTube"] {
+    background: #bb0000;
+}
+
+a[data-original-title="Flickr"] {
+    background: #ff0084;
+}
+
+a[data-original-title="RSS"] {
+    background: #FA9B39;
+}
+
+a[data-original-title="Pinterest"] {
+    background: #cb2027;
+}
+
+a[data-original-title="Instagram"] {
+    background: #3f5c9a;
+}
+
+a[data-original-title="Vimeo"] {
+    background: #0087CB;
+}
+
+a[data-original-title="Dribble"] {
+    background: #ea4c89;
+}
+
+a[data-original-title="Behance"] {
+    background: #1759ff;
+}
+
+a[data-original-title="Tumbler"] {
+    background: #32506d;
+}
+
+a[data-original-title="Stumbleupon"] {
+    background: #EB4823;
+}
+
+a[data-original-title="facebook"] {
+    background: #3b558b;
+}
+
+a[data-original-title="linkedIn"] {
+    background: #007bb6;
+}
+
+a[data-original-title="twitter"] {
+    background: #00aced;
+}
+
+a[data-original-title="google+"] {
+    background: #b63a2b;
+}
+
+a[data-original-title="youTube"] {
+    background: #bb0000;
+}
+
+a[data-original-title="flickr"] {
+    background: #ff0084;
+}
+
+a[data-original-title="rss"] {
+    background: #FA9B39;
+}
+
+a[data-original-title="pinterest"] {
+    background: #cb2027;
+}
+
+a[data-original-title="instagram"] {
+    background: #3f5c9a;
+}
+
+a[data-original-title="vimeo"] {
+    background: #aad450;
+}
+
+a[data-original-title="dribble"] {
+    background: #ea4c89;
+}
+
+a[data-original-title="behance"] {
+    background: #1759ff;
+}
+
+a[data-original-title="tumbler"] {
+    background: #32506d;
+}
+
+a[data-original-title="stumbleupon"] {
+    background: #EB4823;
+}
+
+.panel-group .panel {
+    background-color: #f5f5f5;
+}
+
+.table thead {
+    background-color: #2b8dc4;
+}
+
+.table tbody tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+
+.skillbar {
+    background-color: #e4e4e4;
+}
+
+.user-post-vehicles .cs-field input[type="submit"] {
+    background-color: #2b8dc4;
+}
+
+.slicknav_menu ul ul li a strong {
+    background: #efefef;
+}
+
+.main-navigation>ul>li ul {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#header.modren,
+#header.modren.main-header {
+    background: #f9f9f9;
+}
+
+#header.modren .main-navigation>ul>li.logo:hover >a {
+    background: transparent !important;
+}
+
+.jp-audio .jp-controls-holder button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+.jp-audio .jp-seek-bar:before {
+    background: #efefef;
+}
+
+.jp-audio .jp-volume-bar-value {
+    background: #0f0851;
+}
+
+.main-post .swiper-button,
+.main-post .slider-post button,
+ul.blog-medium-slides,
+.blog-small-slider-holder .swiper-button,
+ul.blog-small-slides button,
+.blog-masonary-slider-holder .swiper-button,
+ul.blog-masonary-slides button {
+    background-color: #cbcbcb;
+}
+
+.alert.alert-danger {
+    background-color: #ffecec;
+}
+
+.alert.alert-success {
+    background: #e9ffd9;
+}
+
+.alert.alert-warning {
+    background: #fff8c4;
+}
+
+.alert.alert-info {
+    background: #e3f7fc;
+}
+
+.cs-price span {
+    background-color: rgb(247, 247, 247);
+}
+
+.pricetable-holder a {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.pricetable-holder {
+    background-color: rgba(211, 210, 254, 0.6);
+}
+
+.construction.fancy .time-box h4:after {
+    background: #999;
+}
+
+.construction.fancy .social-media li a[data-original-title="facebook"] {
+    background-color: #2b4a8b;
+}
+
+.construction.fancy .social-media li a[data-original-title="twitter"] {
+    background-color: #40bff5;
+}
+
+.construction.fancy .social-media li a[data-original-title="google-plus2"] {
+    background-color: #e84343;
+}
+
+.construction.fancy .social-media li a[data-original-title="icon-linkedin2"] {
+    background-color: #057fbc;
+}
+
+.construction.fancy .social-media li a[data-original-title="icon-vimeo2"] {
+    background-color: #1facdc;
+}
+
+.music-event-list ul li.ticket-closed .event-ticket a {
+    background-color: #c6c6c6 !important;
+}
+
+.event-next a span:after {
+    background: #fc0606;
+}
+
+.music-events .slick-arrow:after {
+    background: #fc0606;
+}
+
+.logo-slider .client-logo .slick-next,
+.logo-slider .client-logo .slick-prev {
+    background-color: transparent;
+}
+
+.page-not-found .text-holder a {
+    background-color: #0f0851;
+}
+
+.slider .cs-column-text .btn {
+    background-color: #ff0c00;
+}
+
+.blog.blog-detail .share-post ul li .twitter {
+    background: #1b95e0;
+}
+
+.blog.blog-detail .share-post ul li .facebook {
+    background: #4965b5;
+}
+
+.blog.blog-detail .share-post ul li .pin-it {
+    background: #ccc;
+}
+
+.comments ul li .children li {
+    background: #fafafa;
+}
+
+.comment-form form .input-holder input[type="text"],
+.comment-form form .input-holder textarea {
+    background: #fafafa;
+}
+
+.comment-form form .btn-holder input[type="submit"] {
+    background: #fc0606;
+}
+
+.music-album figcaption .play-btn,
+.load-more,
+.section-title em,
+.element-title em {
+    background-color: #ff0000;
+}
+
+.music-gallery figure > a:before {
+    background: rgba(252, 6, 6, 0.2);
+}
+
+.btn-efc:before {
+    background: #0f0851;
+}
+
+.footer-widgets {
+    background: #efefef;
+}
+
+.widget-contact .filed-holder input[type="email"],
+.widget-contact .filed-holder input[type="text"],
+.widget-contact textarea {
+    background: #e1e1e1;
+}
+
+.cs-copyright {
+    background: #e3e3e3 none repeat scroll 0 0;
+}
+
+#header .main-navigation ul .user-option .user-cart ul li > ul, .user-option .user-cart ul li > ul {
+    background: #333333 !important;
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+}
+
+.main-player {
+    background: #191728;
+}
+
+.main-player .jp-controls button {
+    background: #c1bfbd;
+}
+
+.main-player .jp-seek-bar {
+    background: #c1bfbd;
+}
+
+.main-player .jp-audio .jp-play-bar {
+    background: #272727 !important;
+}
+
+.main-player .jp-audio .jp-volume-bar {
+    background: #c1bfbd none repeat scroll 0 0;
+}
+
+.main-player .jp-audio .jp-volume-bar-value {
+    background: #272727 !important;
+}
+
+.main-player .jp-audio .jp-volume-controls button.jp-mute {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+.main-player .jp-playlist-item.jp-playlist-current:after {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.main-player .mCSB_scrollTools .mCSB_draggerRail {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.blog-detail .share-post li a.addthis_button_compac {
+    background: #f36d50;
+}
+
+.album-detail .img-holder figure figcaption .btn-album {
+    background: #000000;
+}
+
+.construction.fancy {
+    background-color: transparent;
+}
+
+.main-player .jp-playlist {
+    background: #191728;
+}
+
+
+/* border color */
+
+blockquote {
+    border-color: #ff0c00;
+}
+
+select,
+textarea,
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=range],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week] {
+    border-color: #e4e4e4;
+}
+
+.post-password-form input[type='submit'] {
+    border-color: #2b8dc4;
+}
+
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td,
+table > thead > tr > th,
+table > tbody + tbody,
+table thead tr th,
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+    border-color: #d2d2d2;
+}
+
+.panel-group .panel {
+    border-color: #f2f2f2;
+}
+.cs-testimonial-slider {
+    border-color: #e4e4e4;
+}
+
+.cs-icon-boxes.has-border {
+    border-color: #eeeeee;
+}
+.cs-faq-tabs.vertical-tabs .nav.nav-tabs li.active > a,
+.cs-faq-tabs.vertical-tabs .nav.nav-tabs li.active > a:hover,
+.cs-faq-tabs.vertical-tabs .nav.nav-tabs li.active > a:focus {
+    border-right: transparent 1px solid;
+}
+
+.cs-counter figure i {
+    border-color: #2b8dc4;
+}
+
+.album-player div.player.inactive {
+    border-color: #efefef;
+}
+
+.album-player .btn.play,
+.album-player .btn.pause,
+.jp-audio .jp-controls-holder button {
+    border-color: #d9d8d8;
+}
+
+.jp-audio.jp-state-playing .jp-controls-holder button.jp-play,
+.album-player .btn.pause {
+    border-color: #0f0851;
+}
+
+.alert.alert-danger {
+    border-color: #f9cbc8;
+}
+
+.alert.alert-success {
+    border-color: #c9e0b7;
+}
+
+.construction.fancy .seprater span:after,
+.construction.fancy .seprater span:before {
+    border-color: rgb(255, 255, 255);
+}
+
+.music-event-list ul li,
+.music-event-list ul.event-detail-list li:nth-child(2) {
+    border-color: rgba(198, 198, 198, 0.6)
+}
+
+.music-events .img-holder:after {
+    border-color: #fc0606;
+}
+
+.video-grid .img-holder figcaption a.btn,
+.music-album .img-holder,
+.music-album figcaption .album-label:before, .slicknav_btn  {
+    border-color: #fff;
+}
+
+.blog.blog-detail .share-post ul li .comment1,
+.blog.blog-detail .share-post ul li .comment2,
+.blog.blog-detail .share-post ul li .google,
+.search-result .blog-post .text-holder .post-option,
+.blog.blog-list .blog-post .text-holder .post-option,
+.comments ul li .img-holder,
+.password_protected label,
+.comments .thumb-list .media-holder,
+.password_protected label {
+    border-color: #ccc
+}
+
+.comments > ul,
+.comments ul li .children {
+    border-color: #dadada;
+}
+
+.main-player .img-holder {
+    border-color: #7f8081;
+}
+
+#header .user-option .user-cart ul li ul > li,
+.user-option .user-cart ul li > ul li .img-holder {
+    border-color: #696969;
+}
+
+.dark-view.v4 .music-event-list ul li {
+    border-color: rgba(0, 0, 0, 0.6);
+}
+
+.main-player .jp-playlist,
+.main-player .jp-playlist ul li {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.panel-group .panel {
+    border-color: #f2f2f2
+}
+
+.table thead tr th:first-child {
+    border-color: #e2e2e2;
+}
+
+.cs-faq-tabs .tab-content,
+.cs-faq-tabs.vertical-tabs .nav.nav-tabs li a, .cs-faq-tabs .tab-content, .cs-faq-tabs.vertical-tabs .nav.nav-tabs li a  {
+    border-color: #ddd;
+}
+
+.cs-counter figure i {
+    border-color: #2b8dc4;
+}
+.slicknav_nav {
+    border-color: rgba(225, 225, 225, 0.5);
+}
+
+.slicknav_nav a {
+    border-color: rgba(225, 225, 225, 0.5) !important;
+}
+
+.album-player div.player.inactive {
+    border-color: #efefef
+}
+
+.album-player .btn.pause {
+    border-color: #0f0851
+}
+
+.alert.alert-info {
+    border-color: #b9e7f9;
+}
+
+.pricetable-holder {
+    border-color: rgb(238, 238, 238);
+}
+
+.blog.blog-detail .share-post ul li .comment1::before {
+    border-bottom: 5px solid transparent;
+    border-right: 6px solid #fff;
+    border-top: 5px solid transparent;
+}
+
+.blog.blog-detail .share-post ul li .comment1::after {
+    border-bottom: 6px solid transparent;
+    border-right: 7px solid #ccc;
+    border-top: 6px solid transparent;
+}
+
+
+/* border color */
+
+
+.pagination > li > a:hover, .pagination > li > a.active, .pagination > li .page-numbers.dots {background-color:transparent;box-shadow: 0px 5px 8px 0px #ccc;}
+.pagination > li > a, .pagination > li > a:hover, .pagination > li > a.active:hover, .pagination > li > a.active, .woocommerce.single-product div.product .stock_wrapper, .woocommerce .woocommerce-tabs .nav-tabs.wc-tabs li a, .woocommerce ul.products li.product a.added_to_cart,  .pagination > li .page-numbers.dots{color:#000;}
+.woocommerce .woocommerce-ordering select{color: #555;background-color: #fff;border:1px solid #ccc;}
+.woocommerce .woocommerce-ordering:before{color: #ccc;}
+.single.single-product.woocommerce.woocommerce-page .detail-holder:before {background-color: #fcfcfc;border-top: 1px solid #dfdfdf;}
+.woocommerce.single-product #review_form #respond p input[type="text"], .woocommerce.single-product #review_form #respond p input[type="email"], .woocommerce.single-product #review_form #respond textarea {color: #666;border-color: #dddddd;background-color: #fff;}
+.woocommerce.single-product p.stars a{ color: #f8bd09;}
+.section-title.fancy em:before {border-bottom-color: #c74735;}
+.section-title.fancy em:after {border-top-color: #c74735;}
+.woocommerce ul.products li.product a img {border: 6px solid #fff;}
+.woocommerce.single-product .quantity .qty, .woocommerce.single-product div.product .quantity input[type="button"] {border: 1px solid #ccc;color: #000;background:none;}
+.single-product div.product .image .woocommerce-main-image{border:1px solid #dfdfdf;}
+.single-product div.product .image .thumbnails a{border:1px solid #f1f1f1;}
+.woocommerce.single-product div.product form.cart {border-bottom:1px solid #f3f4f5;}
+.woocommerce .nav-tabs {border-bottom: 1px solid #dddddd;}
+.woocommerce form .form-row label, .woocommerce .coupon label, .woocommerce .cart-collaterals  table.shop_table th, .woocommerce .cart-collaterals  table.shop_table td, .woocommerce .cart-collaterals table.shop_table .cart-subtotal .woocommerce-Price-amount.amount, .woocommerce .cart-collaterals table.shop_table .order-total .amount, .woocommerce form .form-row.create-account label, .woocommerce table.woocommerce-checkout-review-order-table thead tr th, .woocommerce table.woocommerce-checkout-review-order-table thead tr td, .woocommerce table.woocommerce-checkout-review-order-table tfoot tr th, .woocommerce table.woocommerce-checkout-review-order-table tfoot tr td, .woocommerce table.woocommerce-checkout-review-order-table tbody tr th, .woocommerce table.woocommerce-checkout-review-order-table tbody tr td{color: #333;}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea{border:1px solid #eee; background-color: #f8f8f8;color: #666666;}
+.woocommerce form table.shop_table.cart thead tr th, .woocommerce form table.shop_table.cart thead tr td{background-color: #fcfcfc; color: #333;}
+.woocommerce .product-name a, .woocommerce form table.shop_table.cart .product-price .amount, .woocommerce form table.shop_table.cart .product-subtotal .amount{color: #333;}
+.woocommerce form table.shop_table.cart tr:nth-child(even){background-color: #fcfcfc !important;}
+.woocommerce form table.shop_table.cart tbody tr:nth-child(even){background-color: #fcfcfc !important;}
+.woocommerce table.cart thead {border-color: #e9e9e9;}
+.woocommerce table.cart tr th {border-color: #e9e9e9; border-bottom: none;}
+.woocommerce form table.shop_table.cart tbody tr td{border-color: #e9e9e9;}
+.woocommerce .product-quantity .quantity .qtyminus, .woocommerce .product-quantity .quantity .qtyplus{ background-color: #fcfcfc; border:1px solid #e9e9e9; color: #cccccc;}
+.woocommerce form table.shop_table .quantity .qty{ border:1px solid #e9e9e9;color: #666;}
+.woocommerce form table.shop_table input.button[type="submit"]{background:none; border:1px solid #e9e9e9;color: #333;}
+.woocommerce .coupon .input-text{border: 1px solid #e9e9e9;}
+.woocommerce form .form-row .select2-container .select2-choice { background: #f8f8f8; border: 1px solid #eee;color: #666;}
+.woocommerce form .form-row.create-account label:before{border:1px solid #c4c4c4;}
+.woocommerce table.woocommerce-checkout-review-order-table tr .amount{color: #666;}
+.woocommerce table.woocommerce-checkout-review-order-table tr, .woocommerce table.woocommerce-checkout-review-order-table th{border-top:1px solid #ededed !important;}
+.woocommerce table.woocommerce-checkout-review-order-table tbody tr td, .woocommerce table.woocommerce-checkout-review-order-table tfoot tr td{border:none;border-top:1px solid #ededed; }
+.woocommerce form .form-row .select2-container .select2-choice > .select2-chosen{ color: #666;}
+.woocommerce .woocommerce-MyAccount-navigation li a{color: #000;}
+.woocommerce .woocommerce-MyAccount-content p {color: #555555 !important;}
+.jp-audio .jp-controls-holder button{border: 1px solid #d9d8d8;}
+.jp-audio.jp-state-playing .jp-controls-holder button.jp-play{border: solid 1px #0f0851;}
+.single-product div.product table.variations td.label label{color:#000000;}
+.single-product div.product table.variations .value select{border:1px solid #ccc;}

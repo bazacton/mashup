@@ -1,0 +1,217 @@
+
+.text-color,
+.classic .main-navigation>ul>li:hover > a,
+.classic .main-navigation>ul>li ul>li:hover > a,
+.music-events .text-holder .time-box h4,
+.footer-widgets .widget-text ul li p a:hover,
+.music-events .text-holder a:hover,
+.woocommerce ul.products li.product:hover h4,
+.contact-info .text-holder a:hover,
+.woocommerce .widget_shopping_cart_content li a:hover,
+.woocommerce .widget_top_rated_products .product-title:hover,
+.user-option .user-cart ul li > ul li .text-holder .post-title h6 a:hover,
+.cs-copyright .condition li a:hover,
+.blog.blog-list .blog-post .text-holder .btn-read-more,
+.blog.blog-list .blog-post .text-holder .post-option .post-catagories li a:hover,
+.widget-upcoming-events .widget-upcoming li:hover .text h6 a,
+.widget-recent-post ul li:hover .post-text .post-title h4 a,
+.blog-post .text-holder h2 a:hover,
+.pagination > li > a:hover,
+.pagination > li > a.active,
+.widget_categories ul li:hover,
+.widget_categories ul li a:hover,
+.blog.blog-list .blog-post .text-holder .post-option .post-comment a:hover,
+.widget-upcoming-events .widget-upcoming li .text h6 a:hover,
+.widget.widget-categories ul li a:hover,
+.woocommerce .product-name a:hover,
+#footer .cs-copyright p a,
+.comment-form .comment-respond span a:first-child,
+.music-event-list ul li .event-info a:hover,
+.widget-recent-post ul li .post-text .post-title h4 a:hover,
+.blog.blog-list .blog-post .text-holder h2 a:hover,
+.woocommerce.widget_recent_reviews li:hover a,
+.page-not-found .text-holder span,
+.widget_product_categories li a:hover,
+.widget-info .widget-social-media li a:hover,
+.cs-color,
+.music-album figcaption .album-label em,
+blockquote,
+.slicknav_menu .slicknav_menutxt, .slicknav_nav a, .widget_calendar .calendar_wrap table thead tr th, .widget.twitter-post p a,
+.widget_archive ul li a:hover, .widget_categories ul li a:hover, .widget_pages ul li a:hover, .widget_meta ul li a:hover, .widget_recent_entries ul li a:hover,
+.blog.blog-list .blog-post .text-holder  .btn-read-more i,
+.slider .slick-arrow.slick-next,
+.widget_archive ul li, .widget_categories ul li,
+blockquote, .construction.fancy .time-box h4, .slider .slick-arrow:hover, .page-not-found .text-holder span,
+.event-next a, .music-events .slick-arrow,
+.widget-upcoming-events .widget-upcoming li .date span,
+.woocommerce ul.products li.product .price del,
+.woocommerce ul.products li.product .price span,
+.woocommerce.single-product div.product .product_meta .posted_in a
+{
+color:#ed1b24 !important;
+}
+.bgcolor,
+.music-events .text-holder .time-box span.cs-slash,
+.woocommerce.single-product div.product form.cart .button,
+.woocommerce.woocommerce-page .tags-contents li:hover a,
+.single.single-product.woocommerce.woocommerce-page .next-previous a:hover i,
+.jp-audio .jp-play-bar,
+.jp-audio .jp-volume-bar-value,
+.page-not-found .text-holder a,
+.woocommerce .wc-proceed-to-checkout a.button.alt:hover,
+.woocommerce.single-product div.product .stock,
+.woocommerce .widget_shopping_cart_content .buttons a,
+.widget_price_filter .ui-slider .ui-slider-range,
+.widget_price_filter .ui-slider .ui-slider-handle,
+.main-player .mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.comment-form form .btn-holder input[type="submit"], 
+.no-results.not-found input[type="submit"],
+.search-results .suggestions input[type="submit"],
+.section-title em,
+.eliment-heading em,
+.load-more,
+.slider .cs-column-text .btn,
+.music-album figcaption .play-btn, .widget_search .search-form input.search-submit[type="submit"], .widget_calendar .calendar_wrap caption,
+.music-events .slick-arrow:after,
+.section-title.modern h2:before, .section-title.modern h2:after
+{
+background-color:#ed1b24 !important;
+}
+.border-color,
+.music-events .img-holder:after,
+.woocommerce .woocommerce-tabs .nav-tabs.wc-tabs li.active a,
+.main-player .mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+blockquote,
+.slicknav_menu .slicknav_icon-bar
+{
+border-color:#ed1b24 !important;
+}
+.section-title.fancy em:before
+{
+border-bottom-color:#ed1b24 !important;
+}
+.section-title.fancy em:after
+{
+border-top-color:#ed1b24 !important;
+}
+.cs-main-nav {
+position: relative !important;
+}
+body,
+.main-section p,
+.mce-content-body p
+{
+font:  14px/24px "Lato", sans-serif !important;text-transform: none;color: #555555 !important;            }
+header .logo {
+margin-top:0px;
+margin-right:0px;
+margin-bottom:0px;
+margin-left:0px;
+}
+#header .main-navigation > ul > li > a,
+#header .main-navigation > ul > li 
+{
+font:700 Normal  13px/19px "Open Sans", sans-serif !important;text-transform: uppercase !important;            }
+h1, h1 a{
+font:900 Normal  26px/34px "Lato", sans-serif !important;text-transform: uppercase !important;color: #0f0851 !important;}
+h2, h2 a{
+font:900 Normal  24px/28px "Lato", sans-serif !important;text-transform: uppercase !important;color: #0f0851 !important;            }
+h3, h3 a{ 
+font:900 Normal  22px/26px "Lato", sans-serif !important;text-transform: uppercase !important;color: #0f0851 !important;            }
+h4, h4 a{
+font:900 Normal  18px/24px "Lato", sans-serif !important;text-transform: uppercase !important;color: #0f0851 !important;            }
+h5, h5 a{
+font:900 Normal  16px/22px "Lato", sans-serif !important;letter-spacing: 0px !important;text-transform: uppercase !important;color: #0f0851 !important;            }
+h6, h6 a{
+font:900 Normal  14px/20px "Lato", sans-serif !important;letter-spacing: 0px !important;text-transform: uppercase !important;color: #0f0851 !important;            }
+.section-title h2, .element-title h2{
+font:900 Normal  24px/30px "Lato", sans-serif !important;letter-spacing: 2px !important;text-transform: uppercase !important;            }
+.post-title h2{
+font:900 Normal  20px/26px "Lato", sans-serif !important;text-transform: uppercase !important;            }
+.page-title h1 {
+font:900 Normal  20px/26px "Lato", sans-serif !important;text-transform: uppercase !important;color: #0f0851 !important;            }
+.widget .widget-title h6{
+font:900 Normal  14px/20px "Lato", sans-serif !important;text-transform: uppercase !important;color: #0f0851 !important;            }
+#footer .widget-title h6{
+font:900 Normal  14px/20px "Lato", sans-serif !important;text-transform: uppercase !important;color: #0f0851 !important;            }
+#header .main-navigation ul ul,
+.main-navigation ul li.mega-dropdown-lg ul,
+.main-navigation ul li.mega-menu ul.mega-dropdown-lg:before,
+#header .mega-menu .mega-dropdown-lg.has-border > li:before,
+.main-navigation ul li.mega-menu ul.mega-dropdown-lg:after,
+#header .main-navigation ul ul ul li:hover > a,
+ul.mega-dropdown-lg .menu-loader:before,
+#header .main-navigation ul .mega-dropdown-post .swiper-loader
+{ background-color:#796872 !important; }
+#header .main-header,
+.gn-search-holder .search-container input[type='text'],
+#header.dark.fancy .main-header
+{
+background-color:#ffffff !important;
+}
+#header .main-navigation ul ul li a,
+#header .main-navigation ul ul li.menu-item-has-children > a:after
+{color:#ffffff !important;}
+#header .main-navigation ul ul ul li a,
+#header .main-navigation ul ul ul ul li a
+{color:#ffffff !important;}
+#header .main-navigation ul ul li:hover > a,
+#header .main-navigation ul li.current-menu-parent ul li.current-menu-item:hover > a,
+#header .main-navigation ul li.current-menu-ancestor ul li.current-menu-item > a,
+#header .main-navigation ul li.current-menu-ancestor ul li.current-menu-item > a:after,
+#header .main-navigation ul li.current-menu-ancestor ul li.current-menu-ancestor > a,
+#header .main-navigation ul li.current-menu-ancestor ul li.current-menu-ancestor > a:after {
+color:#ffffff !important;}
+#header .main-navigation ul li a,
+#header .main-navigation ul li:first-child.current-menu-item > a,
+#header .main-navigation ul li.menu-item-has-children a:after,
+#header .main-navigation .user-option .user-cart ul li > a i,
+#header.modren .user-option .user-cart ul li > a
+{ color:#555555 !important;}
+#header .main-navigation ul li:hover > a,
+#header .main-navigation ul li:first-child.current-menu-item:hover > a,
+#header .main-navigation ul li.menu-item-has-children:hover > a:after,
+#header .main-navigation ul li.current-menu-ancestor > a,
+#header .main-navigation ul li.current-menu-ancestor > a:after,
+#header .main-navigation ul li.current-menu-item > a,
+#header .main-navigation ul li.current-menu-item > a:after
+{ color:#ffffff !important; }
+#header .main-navigation ul li:hover > a,
+#header .main-navigation ul li.current-menu-ancestor > a,
+#header .main-navigation ul li.current-menu-item > a,
+.home #header .main-navigation ul li.current-menu-item:hover > a
+{ background:#796872 !important; }
+#header .main-navigation ul ul ul,
+#header .main-navigation ul ul li:hover > a,
+#header .main-navigation ul li.current-menu-ancestor ul li.current-menu-item > a,
+#header .main-navigation ul li.current-menu-ancestor ul li.current-menu-ancestor > a,
+#header .main-navigation ul li.mega-menu .mega-dropdown-category .category-list a
+{ background:#796872 !important; }
+.page-sidebar .widget-title h3, .page-sidebar .widget-title h4, .page-sidebar .widget-title h5, .page-sidebar .widget-title h6{
+color:#0f0851 !important;
+}            .section-sidebar .widget-title h3, .section-sidebar .widget-title h4, .section-sidebar .widget-title h5, .section-sidebar .widget-title h6{
+color:#0f0851 !important;
+}
+#footer .cs-footer-widgets { background-color:#efefef !important; }
+#footer .cs-footer-widgets { background-color: !important; }
+#footer .cs-footer-widgets p, .custom-container #footer .cs-footer-widgets p
+{color:#000000 !important;}
+#footer .cs-copyright p,
+#footer .cs-copyright .btn-top a,
+#footer .cs-copyright ul.terms-nav li a
+{
+color:#000000 !important;
+}
+ul.terms-nav li:after
+{
+background-color:#000000 !important;
+}
+#footer .cs-footer-widgets a,
+#footer .cs-footer-widgets a i,
+#footer .cs-copyright .widget-nav ul li a,
+#footer .cs-copyright p a,
+#footer .cs-copyright .widget-text ul li a{
+color:#000000 !important;
+}            /*Footer Copyright Background Color*/
+#footer .cs-copyright,
+#footer.modern-v1 .cs-copyright {background-color:#e3e3e3 !important;}
